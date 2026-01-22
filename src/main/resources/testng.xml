@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HomeWork2Suite">
+
+    <test name="formTests">
+        <classes>
+            <class name="tests.FormTests"/>
+        </classes>
+    </test>
+
+    <test name="alertTests">
+        <classes>
+            <class name="tests.AlertTests"/>
+        </classes>
+    </test>
+
+    <test name="commandsTests">
+        <classes>
+            <class name="tests.CommandsTests"/>
+        </classes>
+    </test>
+</suite>
